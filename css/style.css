@@ -1,0 +1,233 @@
+
+/* Default Font Styles
+______________________*/
+body, input, select, textarea, p, a, b{
+  font-family: 'Open Sans', sans-serif;
+	color:#000;
+	line-height:1.4;
+}
+/* p, blockquote, address
+______________________*/
+p{
+	font-size: 15px;
+	margin-bottom:15px;
+}
+a:hover, a:focus{
+	text-decoration: none;
+}
+/* Layout 
+______________________*/
+.row{
+	margin: 0;
+}
+.middle_Box{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.pricing_wrap {
+    padding: 52px 0;
+}
+.select_plan {
+    text-align: center;
+    padding: 0 0 35px;
+}
+.select_plan h1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+.four_box_plans {
+    background-image: linear-gradient(#424D6A, #2E374D);
+    color: #fff;
+    text-align: center;
+    padding: 30px 28px;
+}
+.four_box_plans h3 {
+    color: #fff;
+    margin: 0 0 13px;
+    font-size: 17px;
+}
+.four_box_plans > span {
+    display: block;
+    height: 3px;
+    width: 44px;
+    background: #fefefe;
+    margin: 29px auto 22px;
+}
+.four_box_plans > b {
+    color: #fff;
+    font-size: 46px;
+}
+.four_box_plans b sup {
+    color: #6d7793;
+    font-size: 19px;
+}
+.four_box_plans sup {
+    top: -25px;
+    left: 10px;
+}
+.four_box_plans p {
+    color: #fff;
+    font-size: 13px;
+    margin: 28px 0 35px;
+}
+.four_box_plans p > span {
+    display: block;
+}
+.four_box_plans h5 {
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0 0 40px;
+    color: #b2bddd;
+    display: none;
+}
+.four_box_plans h5 > span {
+    color: #b1bcde;
+    display: block;
+}
+.four_box_plans h5 span a {
+    color: #fff;
+}
+.sidegapp{
+    padding: 0 5px;
+}
+.four_box_plans > a {
+    display: inline-block;
+    width: 100%;
+    padding: 11px 3px;
+    border-radius: 1px;
+    background-image: linear-gradient(#b2bddd, #b2bddd);
+    color: #fff;
+}
+.four_box_plans:hover{
+    -webkit-transition:0.9s;
+    -webkit-transform: translateY(-1px) scale(1.02);
+    -moz-transform: translateY(-1px) scale(1.02);
+    -ms-transform: translateY(-1px) scale(1.02);
+    -o-transform: translateY(-1px) scale(1.02);
+    transform: translateY(-1px) scale(1.02);
+    -webkit-box-shadow: 0px 14px 24px rgba(62, 57, 107, 0.2);
+    box-shadow: 0px 14px 24px rgba(62, 57, 107, 0.2);
+}
+.four_box_plans {
+    border-radius: 4px;
+}
+body{
+    overflow-x: hidden;
+}
+.carousel-inner {
+    overflow: visible;
+}
+.carousel-control-next, .carousel-control-prev,.carousel-indicators{
+    display: none;
+}
+.carousel-item {
+    transition:none !important;
+    -webkit-perspective: none !important;
+    perspective: none !important;
+}
+
+/*responsive*/
+
+@media(max-width: 1250px){
+    .container{
+        width: 100%;
+    }
+    .pricing_wrap {
+        padding: 30px 0;
+    }
+    .middle_Box {
+        max-width: 100%;
+        padding: 0 13px;
+    }
+}
+
+
+@media(max-width: 1024px){
+    .container{
+        width: 100%;
+    }
+    .four_box_plans > b {
+        font-size: 30px;
+    }
+    .four_box_plans h3 {
+        font-size: 13px;
+    }
+    .four_box_plans > a {
+        font-size: 12px;
+    }
+    .four_box_plans sup {
+        top: -13px;
+        left: 6px;
+    }
+    .four_box_plans {
+        padding: 30px 10px;
+    }
+    .four_box_plans h5 {
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width: 767px){
+    .container{
+        width: auto;
+    }
+    .select_plan h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .select_plan {
+        padding: 0 0 17px;
+    }
+    .pricing_wrap {
+        padding: 19px 0;
+    }
+    .threebox{
+        display: none;
+    }
+    .carousel-control-next, .carousel-control-prev,.carousel-indicators{
+        display: block;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 47%;
+    }
+    .four_box_plans > b {
+        font-size: 42px;
+    }
+    .four_box_plans sup {
+        top: -23px;
+        left: 9px;
+        font-size: 20px;
+    }
+    .four_box_plans h3 {
+        font-size: 18px;
+    }
+    .four_box_plans h5 {
+        font-size: 12px;
+    }
+    .carousel-indicators li {
+        display: inline-block;
+        width: 9px;
+        border-radius: 100%; 
+        height: 9px;
+    }
+    .four_box_plans p {
+        margin: 28px 0 79px;
+    }
+    .carousel-indicators {
+        bottom: 39%;
+        text-align: center;
+    }
+    .four_box_plans > a {
+        font-size: 15px;
+    }
+    .carousel-item {
+        transition:transform .6s ease-in-out,-webkit-transform .6s ease-in-out !important;
+        perspective: 1000px !important;
+    }
+    .four_box_plans h5{
+        display: block;
+    }
+
+
+}
